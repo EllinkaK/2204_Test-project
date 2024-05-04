@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --mainColor: #3685fb
+    
+}
+
 @font-face {
     font-family: airbnb-c;
     src: url(../assets/fonts/airbnbcerealappblack.woff2);
@@ -14,5 +19,78 @@
 }
 body {
     max-width: 1440px;
-    font-family: airbnd-c;
+    font-family: airbnb-c;
+    font-size: 32px;
+    margin: 0 auto;
+}
+header {
+display: flex;
+justify-content: space-between;
+padding: 48px 109px;
+}
+.nav_link {
+    font-size: 16px;
+line-height: 112%;
+color: #002248;
+text-decoration: none;
+padding: 0 16px;
+}
+
+.button {
+    background-color: var(--mainColor);
+    border: none;
+    border-radius: 10px;
+    width: 120px;
+    height: 50px;
+    font-weight: 500px;
+    color: #fff;
+}
+.button2 {
+    background-color: var(--mainColor);
+    border: none;
+    border-radius: 10px;
+    width: 170px;
+height: 60px;
+    font-weight: 500px;
+    color: #fff;
+}
+
+.nav_link:hover {
+    color: var(--mainColor);
+}
+.booking {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.booking2 {
+    max-width: 523px;
+    
+}
+
+.bookingimg {
+    width: 569px;
+height: 597px;
+}
+.booknow {
+    font-weight: 500;
+font-size: 16px;
+line-height: 112%;
+color: #00b3a0;
+font-family: airbnb-c;
+}
+.lets {
+    font-weight: 550;
+    font-size: 60px;
+    line-height: 120%;
+    color: #002248;
+    font-family: eksell-c;
+    
+}
+    
+.thinking {
+    font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+color: #697687;
 }
